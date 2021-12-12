@@ -16,6 +16,6 @@ allprojects {
 
 ```gradle
 dependencies {
-	        implementation 'com.github.MoZarara:SaveValues:Tag'
+	        implementation 'com.github.MoZarara:SaveValues:1.0.1'
 	}
   ```
