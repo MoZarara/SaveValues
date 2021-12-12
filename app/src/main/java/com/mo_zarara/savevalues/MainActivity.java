@@ -16,14 +16,5 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        SaveValues.init(this);
-
-        SaveValues.setInt("one", 100);
-
-        SaveValues.remove("one");
-
-        Log.d(TAG, "mymy onCreate: " + SaveValues.getInt("one", 0));
-
-
     }
 }
